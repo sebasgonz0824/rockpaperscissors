@@ -26,8 +26,17 @@ def opponent_function():
         opponent_hand='Scissors'
     return (opponent_hand)
 x=0
-
+while x<3:
+    user_hand_main = user_function()
+    opponent_hand_main = opponent_function()
+    print('You have selected',user_hand_main)
+    print('Your opponent has selected', opponent_hand_main)
+    # print(user_hand_main)
+    if user_hand_main==opponent_hand_main:
+        print("It's a tie! Play again")
+        x=x+1
+        print("You guys now both have",x,"points")
+    if x==3:
+        print("Game Over")
+        break
         
-a
-# for x in range(5):
-#     print(x+1)

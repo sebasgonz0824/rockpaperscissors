@@ -43,7 +43,3 @@ while x<3:
 
 # for x in range(5):
 #     print(x+1)
-
-#bruh
-#bruh
-#bruh

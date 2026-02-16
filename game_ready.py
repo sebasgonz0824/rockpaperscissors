@@ -6,7 +6,7 @@ def user_function():
     2. Paper
     3. Scissors\n'''))
     if user_pick == 1:
-        user_hand='Rock'
+        user_hand='Rocasdasdkjbqakefr vck'
     elif user_pick == 2:
         user_hand='Paper'
     elif user_pick == 3:
